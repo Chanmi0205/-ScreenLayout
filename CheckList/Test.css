@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #333333;
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    
+    display: grid;
+
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 30px;
+ 
+}
+
+P, label, .title {
+    color: white;
+}
+
+input {
+    border: 0;
+    background-color: #303030;
+    color: white;
+}
+
