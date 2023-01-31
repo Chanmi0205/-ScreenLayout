@@ -12,7 +12,7 @@ body {
     transform: translate(-50%, -50%);
 
     grid-template-rows: 30px 1px 30px 30px 80px 15px 30px 15px 15px 30px 15px 15px 30px 15px 30px 1px 30px; 
-    grid-template-columns: 15px 80px 160px 80px 160px 80px 160px 80px 160px 15px; 
+    grid-template-columns: 15px 80px 160px 80px 160px 80px 160px 80px 150px 25px; 
     
     grid-row-gap: 15px;
     grid-column-gap: 10px;
@@ -79,14 +79,90 @@ input, .keyword, button {
     grid-column: 9/10;
 }
 
+.keywordP {
+    margin-left: 130px;
+    width: 25px;
+    grid-row: 4/5;
+    grid-column: 9/10;
+}
+
 .keyEditCheck {
     grid-row: 4/5;
     grid-column: 10/11;
 }
 
 .keyword {
+    
+    grid-template-rows: 6px 30px 8px 30px 6px; 
+    grid-template-columns: 3px 202px 202px 202px 202px 202px 3px; 
+    /* 1080 1010 */
+    display: grid;
+
+    grid-column-gap: 10px;
+
     grid-row: 5/6;
     grid-column: 1/11;
+}
+
+.k1 {
+    background-color: #292929;
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.k2 {
+    background-color: #292929;
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+.k3 {
+    background-color: #292929;
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+.k4 {
+    background-color: #292929;
+    grid-row: 2/3;
+    grid-column: 5/6;
+}
+
+.k5 {
+    background-color: #292929;
+    grid-row: 2/3;
+    grid-column: 6/7;
+}
+
+
+.k6 {
+    background-color: #292929;
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+
+.k7 {
+    background-color: #292929;
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+
+.k8 {
+    background-color: #292929;
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+
+.k9 {
+    background-color: #292929;
+    grid-row: 4/5;
+    grid-column: 5/6;
+}
+
+.k10 {
+    background-color: #292929;
+    grid-row: 4/5;
+    grid-column: 6/7;
 }
 
 .textDate {
