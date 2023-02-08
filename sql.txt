@@ -1,0 +1,8 @@
+SQL> ALTER SESSION SET NLS_DATE_FORMAT='YYYY-MM-DD HH24:MI';
+
+SQL> SELECT * FROM t1; 
+// 시간 저장된 DB 확인 (INSERT한 상태 (SQL> INSERT INTO t1(postdate) VALUES(sysdate);) )
+
+POSTDATE
+-------------------
+2023-02-07 23:43

@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: #333333;
+    position: absolute;
+    
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    color: white;
+}
+
+input, button {
+    border: 0;
+    background-color: #2c2c2c;
+    color: white;
+}

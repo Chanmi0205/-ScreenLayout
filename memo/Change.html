@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,23 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Change</title>
 
-    <link rel="stylesheet" href="Change.css">
+    <link rel="stylesheet" href="change.css">
 </head>
 <body>
     
-    <p>Setting</p>
-    <p>Chanmi님</p>
+    <p class="title">Setting</p>
+    <p class="name">chanmi 님</p>
     
-    <hr>
+    <hr class="hr1">
     
-    <input type="text" placeholder="변경할 ID을/를 입력하세요.">
-    <input type="submit" name="" id="" value="ID 변경">
-    <input type="text" placeholder="변경할 name을/를 입력하세요.">
-    <input type="submit" name="" id="" value="name 변경">
-    <input type="text" placeholder="변경할 password을/를 입력하세요.">
-    <input type="submit" name="" id="" value="password 변경">
+    <form action="IDChangeProcess.jsp" method="post" class="f1">
+    	<input type="text" class="IDInput" name="IDS" placeholder="변경할 ID을/를 입력하세요.">
+	    <input type="submit" class="IDS" id="" value="ID 변경">
+    </form>
+    
+    <form action="nameChangeProcess.jsp" method="post" class="f2">
+    <input type="text" class="nameInput" name="name" placeholder="변경할 name을/를 입력하세요.">
+    <input type="submit" class="nameS" id="" value="name 변경">
+    </form>
+    
+    <form action="PWChangeProcess.jsp" method="post" class="f3">    
+	    <input type="text" class="PW" name="PW" placeholder="변경할 password을/를 입력하세요.">
+	    <input type="submit" class="PWS" id="" value="password 변경">
+    </form>
 
-    <hr>
-
+    <hr class="hr2">
+	
 </body>
 </html>
