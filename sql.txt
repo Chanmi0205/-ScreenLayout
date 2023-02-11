@@ -6,3 +6,10 @@ SQL> SELECT * FROM t1;
 POSTDATE
 -------------------
 2023-02-07 23:43
+
+
+JOIN
+SQL> SELECT * FROM member INNER JOIN memo ON member.ID=memo.ID;
+
+
+SQL> INSERT INTO memo(ID, NUM, postdate, memo) VALUES('test', (SELECT NVL(MAX(NUM), 0) + 1 FROM memo), sysdate, 'test3');
